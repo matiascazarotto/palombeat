@@ -65,7 +65,7 @@ function FullScreenBackground() {
   return (
     <BackgroundContainer>
       <animated.div style={textAnimation}>
-        <Text>DI DOMENICO</Text>
+        <Text>PALOMBEAT</Text>
       </animated.div>
     </BackgroundContainer>
   );

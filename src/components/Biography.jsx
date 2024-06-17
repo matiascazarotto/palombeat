@@ -70,9 +70,16 @@ const Paragraph = styled('p')({
 });
 
 const ParagraphText =
-  `Nascido em 1999 e criado em Rodeio-Bonito, RS, Eduardo Di Domenico descobriu sua paixão pela música eletrônica em 2019. No ano seguinte, ele realizou seu primeiro curso de mixagem com Marcos Deon, aprofundando-se no gênero e desenvolvendo sua própria identidade sonora, caracterizada por uma bassline intensa e ritmada que abrange diversas vertentes do House, com destaque para Tech House e House.
-Com cinco anos de experiência como DJ e inúmeras apresentações, Di Domenico adquiriu uma apurada percepção de pista, permitindo-lhe navegar suavemente entre diferentes estilos de House, proporcionando uma experiência única e sets exclusivos.
-Em 2024, mais conectado e maduro profissionalmente, Eduardo lançou a Freaknc, sua label underground, dando mais um passo em busca de novos desafios na sua carreira.`
+  `Luan Palombit é o nome por trás do projeto Palombeat. Natural de Hernandaias - Paraguay, hoje morando em Frederico westphalen RS, teve seu primeiro contato com a música eletrônica há mais 8 anos e desde então é um frequentador ativo das festas do gênero e um ouvinte assíduo do Progressive e Organic House. 
+
+  Após 4 anos no meio da cena foi que Palombeat resolveu entrar de cabeça e decidiu ser DJ, fazendo seu primeiro curso de mixagem com Alex Dittrich, um dos grandes nomes da cena brasileira. 
+  
+  Por já ter uma vasta experiência na música eletrônica underground, Luan conseguiu absorver rapidamente algumas técnicas que um bom Dj precisar ter. Palombeat já se mostrou capaz de construir sets finíssimos e bem elaborados, além de ter um feeling de pista apurado fazendo com que seu publico fique aprisionado do inicio ao fim em seus sets. 
+  
+  Levando essas circunstâncias em consideração, não demorou muito para que Luan recebesse convites para diversas festas no sul do país,    
+  
+  Com seu belo crescimento na cena Undergroud, Luan  já desfruta de duas residências, uma na Lake Club TOP 39 Club House Mag e outra na Conect Sunset.
+  `
 
 
 function Biography() {

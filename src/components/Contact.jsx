@@ -126,20 +126,20 @@ function Contact() {
             </VerticalTextContainer>
             <ContactInfoContainer>
                 <SocialIconsContainer>
-                    <CustomIconButton href="tel:+5555997215044" target="_blank" aria-label="Instagram" color="inherit">
+                    <CustomIconButton href="tel:+554991910049" target="_blank" aria-label="Instagram" color="inherit">
                         <img src="imgs/logo-whatsapp.png" alt="Instagram" />
                         <SocialText>WHATSAPP</SocialText>
-                        <SocialText>(55) 99721-5044</SocialText>
+                        <SocialText>(49) 99191-0049</SocialText>
                     </CustomIconButton>
-                    <CustomIconButton href="mailto:eduardo@di-domenico.com" target="_blank" aria-label="Instagram" color="inherit">
+                    <CustomIconButton href="mailto:luan@palombeat.com" target="_blank" aria-label="Instagram" color="inherit">
                         <img src="imgs/logo-email.png" alt="Instagram" />
                         <SocialText>E-MAIL</SocialText>
-                        <SocialText>eduardo@di-domenico.com</SocialText>
+                        <SocialText>luan@palombeat.com</SocialText>
                     </CustomIconButton>
-                    <CustomIconButton href="https://www.instagram.com/eduardo_di_domenico" target="_blank" aria-label="Instagram" color="inherit">
+                    <CustomIconButton href="https://www.instagram.com/palombeat_music" target="_blank" aria-label="Instagram" color="inherit">
                         <img src="imgs/logo-instagram.png" alt="Instagram" />
                         <SocialText>INSTAGRAM</SocialText>
-                        <SocialText>@eduardo_di_domenico</SocialText>
+                        <SocialText>@palombeat_music</SocialText>
                     </CustomIconButton>
                     <CustomIconButton href="https://www.instagram.com/freaknclabel" target="_blank" aria-label="Instagram" color="inherit">
                         <img src="imgs/logo-freaknc.png" alt="Instagram" />

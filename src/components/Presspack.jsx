@@ -148,7 +148,7 @@ function Presspack() {
                 <VerticalLine />
             </VerticalTextContainer>
             <ContactInfoContainer ref={containerRef}>
-                <LinkContainer href="https://drive.google.com/drive/folders/1yqfh-VXSpC8PRxMyx1haMgC7RB7akOSr" target="_blank" isIntersecting={isIntersecting}>
+                <LinkContainer href="https://drive.google.com/drive/folders/19tp-CWqf7z5WrJNi8GlcLtWHoLyPhUg9" target="_blank" isIntersecting={isIntersecting}>
                     <Image src="imgs/logo-gdrive.png" alt="Press Pack Google Drive" />
                     <SocialText>GOOGLE DRIVE</SocialText>
                 </LinkContainer>

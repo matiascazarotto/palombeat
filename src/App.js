@@ -6,6 +6,7 @@ import SoundCloudSection from './components/SoundCloudSection';
 import GlobalStyles from './styles/globalStyles';
 import Contact from './components/Contact';
 import SpotifySection from './components/SpotifySection';
+import YouTubeSection from './components/YouTubeSection';
 import FreakncSection from './components/FreakncSection';
 import Author from './components/Author';
 
@@ -60,9 +61,9 @@ function App() {
       <Header scrollToBio={scrollToBio} scrollToHome={scrollToHome} scrollToContact={scrollToContact}/>
       <FullScreenBackgroundScroll ref={homeRef} /> 
       <BioScroll ref={bioRef}/>
-      <FreakncSection />
+      <YouTubeSection /> 
       <SoundCloudSection />
-      <SpotifySection /> 
+      <FreakncSection /> 
       <ContactScroll ref={contactRef} />
       <Author />
     </>

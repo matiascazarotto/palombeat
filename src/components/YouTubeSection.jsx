@@ -5,16 +5,16 @@ const Container = styled('div')({
   position: 'relative',
   width: '100%',
   height: '100vh', 
-  background: 'url("imgs/wppSoundCloud.jpg") center/cover no-repeat', 
-  transition: 'background-color 0.5s ease',
+  background: 'url("imgs/wppYoutube.jpg") center/cover no-repeat', 
+  transition: 'background-color 0.5s ease', 
   '&:hover': {
-    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    backgroundColor: 'rgba(0, 0, 0, 0.6)', 
   },
 });
 
 const LinkContainer = styled('a')(({ isIntersecting }) => ({
   position: 'absolute',
-  top: '50%',
+  top: '50%', 
   left: '50%',
   transform: isIntersecting ? 'translate(-50%, -50%) scale(1.2)' : 'translate(-50%, -50%)', 
   cursor: 'pointer',
@@ -23,10 +23,10 @@ const LinkContainer = styled('a')(({ isIntersecting }) => ({
 
 const Image = styled('img')({
   width: '200px', 
-  height: 'auto', 
+  height: 'auto',
 });
 
-function SoundCloudSection() {
+function YouTubeSection() {
   const [isIntersecting, setIsIntersecting] = useState(false);
   const containerRef = useRef(null);
 
@@ -38,7 +38,7 @@ function SoundCloudSection() {
       {
         root: null,
         rootMargin: '0px',
-        threshold: 0.5, 
+        threshold: 0.5,
       }
     );
 
@@ -57,11 +57,11 @@ function SoundCloudSection() {
 
   return (
     <Container ref={containerRef}>
-      <LinkContainer href="https://soundcloud.com/luan-palombit" target="_blank" isIntersecting={isIntersecting}>
-        <Image src="imgs/logo-soundcloud.png" alt="SoundCloud" />
+      <LinkContainer href="https://www.youtube.com/channel/UChwJY-UM9wCtpf-fecmqSow" target="_blank" isIntersecting={isIntersecting}>
+        <Image src="imgs/logo-youtube.png" alt="YouTube" />
       </LinkContainer>
     </Container>
   );
 }
 
-export default SoundCloudSection;
+export default YouTubeSection;

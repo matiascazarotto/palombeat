@@ -54,7 +54,7 @@ function Header({scrollToHome, scrollToBio, scrollToContact }) {
       <StyledAppBar>
         <Toolbar>
           <Title onClick={scrollToHome}>
-            DI DOMENICO
+            PALOMBEAT
           </Title>
           <StyledButton onClick={scrollToContact}>Contato</StyledButton>
           <StyledButton onClick={scrollToBio}>Sobre</StyledButton>
