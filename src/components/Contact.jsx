@@ -131,7 +131,7 @@ function Contact() {
                         <SocialText>WHATSAPP</SocialText>
                         <SocialText>(49) 99191-0049</SocialText>
                     </CustomIconButton>
-                    <CustomIconButton href="mailto:luan@palombeat.com" target="_blank" aria-label="Instagram" color="inherit">
+                    <CustomIconButton href="mailto:luan@palombeat-music.com" target="_blank" aria-label="Instagram" color="inherit">
                         <img src="imgs/logo-email.png" alt="Instagram" />
                         <SocialText>E-MAIL</SocialText>
                         <SocialText>luan@palombeat-music.com</SocialText>
