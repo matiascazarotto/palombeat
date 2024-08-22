@@ -7,7 +7,7 @@ const SectionContainer = styled(Box)({
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
-    backgroundColor: '#121212',
+    background: '#100705',
     backgroundImage: 'url(/imgs/background.jpg)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
@@ -134,17 +134,12 @@ function Contact() {
                     <CustomIconButton href="mailto:luan@palombeat.com" target="_blank" aria-label="Instagram" color="inherit">
                         <img src="imgs/logo-email.png" alt="Instagram" />
                         <SocialText>E-MAIL</SocialText>
-                        <SocialText>luan@palombeat.com</SocialText>
+                        <SocialText>luan@palombeat-music.com</SocialText>
                     </CustomIconButton>
                     <CustomIconButton href="https://www.instagram.com/palombeat_music" target="_blank" aria-label="Instagram" color="inherit">
                         <img src="imgs/logo-instagram.png" alt="Instagram" />
                         <SocialText>INSTAGRAM</SocialText>
                         <SocialText>@palombeat_music</SocialText>
-                    </CustomIconButton>
-                    <CustomIconButton href="https://www.instagram.com/freaknclabel" target="_blank" aria-label="Instagram" color="inherit">
-                        <img src="imgs/logo-freaknc.png" alt="Instagram" />
-                        <SocialText>INSTAGRAM</SocialText>
-                        <SocialText>@freaknclabel</SocialText>
                     </CustomIconButton>
                 </SocialIconsContainer>
             </ContactInfoContainer>

@@ -3,7 +3,7 @@ import { styled } from '@mui/system';
 
 const AuthorContainer = styled('div')({
   display: 'flex',
-  background: 'linear-gradient(to left, #AAAAAA 50%, transparent 30%)',
+  background: 'linear-gradient(to right, #100705 50%, #AAAAAA 50%)',
   width: '100%',
   justifyContent: 'center',
   alignItems: 'center',
@@ -42,6 +42,7 @@ const Title = styled('h2')({
 const Image = styled('img')({
   width: '100%',
   height: 'auto',
+  marginBottom: '-10px',
   transition: 'transform 0.9s ease',
   '&:hover': {
     backgroundColor: 'transparent',
@@ -58,7 +59,7 @@ function Author() {
       <TextContainer>
         <Title>LUAN PALOMBIT</Title>
       </TextContainer>
-      <a href="https://drive.google.com/drive/folders/1yqfh-VXSpC8PRxMyx1haMgC7RB7akOSr" target="_blank" rel="noopener noreferrer">
+      <a href="" target="_blank" rel="noopener noreferrer">
         <Image src="imgs/pics/bio1.png" alt="Luan Palombit" />
       </a> 
     </AuthorContainer>

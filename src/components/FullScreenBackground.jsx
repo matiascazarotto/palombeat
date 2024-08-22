@@ -9,7 +9,7 @@ const BackgroundContainer = styled('div')({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  backgroundImage: 'url(imgs/wppInicial.jpg)',
+  backgroundImage: 'url(imgs/wppInicial.png)',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   overflow: 'hidden',
@@ -29,7 +29,7 @@ const Text = styled('div')({
   position: 'relative',
   zIndex: 2,
   color: '#FFFFFF',
-  fontSize: '2.5rem',
+  fontSize: '2rem',
   fontFamily: 'Archivo Black, sans-serif',
   textAlign: 'center',
   '@media (min-width: 600px)': {
@@ -56,10 +56,9 @@ function FullScreenBackground() {
   }, []);
 
   const textAnimation = useSpring({
-    transform: scrollY < 350 ? `translateY(${scrollY}px)` :
-                scrollY < 400 ? `translateY(${300 - scrollY}px)` :
-                'translateY(0px)',
-    config: { tension: 300, friction: 40  },
+    transform: `translateY(${scrollY * 0.5}px) scale(${1 + scrollY / 1000})`,
+    opacity: scrollY < 350 ? 1 : 0.8,
+    config: { tension: 170, friction: 26 },
   });
 
   return (

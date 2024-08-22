@@ -3,10 +3,12 @@ import { styled } from '@mui/system';
 
 const BiographyContainer = styled('div')({
   display: 'flex',
+  
   justifyContent: 'center',
   alignItems: 'center',
   flexDirection: 'column',
   overflow: 'hidden',
+  background: '#100705',
   '@media (min-width: 1100px)': {
     flexDirection: 'row',
   },
@@ -27,7 +29,7 @@ const Image = styled('img')({
   border: 'none',
   boxShadow: '0 0 20px rgba(0, 0, 0, 0.3)',
   marginBottom: '0',
-  '@media (min-width: 800px)': {
+  '@media (min-width: 900px)': {
     width: '600px',
   },
 });
@@ -49,9 +51,9 @@ const Title = styled('h2')({
     backgroundColor: 'transparent',
     transform: 'scale(1.1)',
   },
-  '@media (min-width: 1100px)': {
-    fontSize: '90px',
-    top: '70px',
+  '@media (min-width: 1300px)': {
+    fontSize: '80px',
+    top: '20px',
     left: '88%',
     position: 'absolute',
     margin: '0',
@@ -77,8 +79,8 @@ const ParagraphText =
   Por já ter uma vasta experiência na música eletrônica underground, Luan conseguiu absorver rapidamente algumas técnicas que um bom Dj precisar ter. Palombeat já se mostrou capaz de construir sets finíssimos e bem elaborados, além de ter um feeling de pista apurado fazendo com que seu publico fique aprisionado do inicio ao fim em seus sets. 
   
   Levando essas circunstâncias em consideração, não demorou muito para que Luan recebesse convites para diversas festas no sul do país,    
-  
-  Com seu belo crescimento na cena Undergroud, Luan  já desfruta de duas residências, uma na Lake Club TOP 39 Club House Mag e outra na Conect Sunset.
+
+  Com seu belo crescimento na cena Underground, Luan já desfruta de duas residências, uma na Lake Club TOP 39 Club House Mag e outra na Conect Sunset.
   `
 
 

@@ -5,10 +5,10 @@ import Biography from './components/Biography';
 import SoundCloudSection from './components/SoundCloudSection';
 import GlobalStyles from './styles/globalStyles';
 import Contact from './components/Contact';
-import SpotifySection from './components/SpotifySection';
 import YouTubeSection from './components/YouTubeSection';
-import FreakncSection from './components/FreakncSection';
 import Author from './components/Author';
+import PhotosSection from './components/PhotosSection';
+import MoviesSection from './components/MoviesSection';
 
 
 function App() {
@@ -63,7 +63,8 @@ function App() {
       <BioScroll ref={bioRef}/>
       <YouTubeSection /> 
       <SoundCloudSection />
-      <FreakncSection /> 
+      <PhotosSection /> 
+      <MoviesSection />
       <ContactScroll ref={contactRef} />
       <Author />
     </>

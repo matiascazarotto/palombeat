@@ -11,7 +11,7 @@ const Root = styled('div')({
 });
 
 const StyledAppBar = styled(AppBar)({
-  background: 'rgba(0, 0, 0, 0.8)',
+  background: 'rgba(25, 0, 0, 0.8)',
   boxShadow: 'none',
   backdropFilter: 'blur(1px)', 
   position: 'fixed',
