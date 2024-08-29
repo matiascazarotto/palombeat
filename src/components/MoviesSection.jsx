@@ -153,7 +153,7 @@ function MoviesSection() {
             </VerticalTextContainer>
             <ContactInfoContainer ref={containerRef}>
                 <LinkContainer href="https://drive.google.com/drive/folders/19tp-CWqf7z5WrJNi8GlcLtWHoLyPhUg9" target="_blank" isIntersecting={isIntersecting}>
-                    <Image src="imgs/logo-camera2.png" alt="Press Kit - Vídeos" />
+                    <Image src="imgs/logo-camera2.png" alt="Palombeat - Vídeos" />
                     <SocialText>GOOGLE DRIVE</SocialText>
                 </LinkContainer>
             </ContactInfoContainer> 
