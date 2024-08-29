@@ -153,7 +153,7 @@ function PhotosSection() {
             </VerticalTextContainer>
             <ContactInfoContainer ref={containerRef}>
                 <LinkContainer href="https://drive.google.com/drive/folders/1ww_toL2tcsgPTwa6hB7IhHG9YcPYffmc" target="_blank" isIntersecting={isIntersecting}>
-                    <Image src="imgs/logo-camera.png" alt="Press Kit - Fotos" />
+                    <Image src="imgs/logo-camera.png" alt="Palombeat - Fotos" />
                     <SocialText>GOOGLE DRIVE</SocialText>
                 </LinkContainer>
             </ContactInfoContainer> 
