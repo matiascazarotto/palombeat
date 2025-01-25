@@ -126,10 +126,10 @@ function Contact() {
             </VerticalTextContainer>
             <ContactInfoContainer>
                 <SocialIconsContainer>
-                    <CustomIconButton href="tel:+554991910049" target="_blank" aria-label="Instagram" color="inherit">
+                    <CustomIconButton href="tel:+5555936184454" target="_blank" aria-label="Instagram" color="inherit">
                         <img src="imgs/logo-whatsapp.png" alt="Instagram" />
                         <SocialText>WHATSAPP</SocialText>
-                        <SocialText>(49) 99191-0049</SocialText>
+                        <SocialText>(55) 93618-4454</SocialText>
                     </CustomIconButton>
                     <CustomIconButton href="mailto:luan@palombeat-music.com" target="_blank" aria-label="Instagram" color="inherit">
                         <img src="imgs/logo-email.png" alt="Instagram" />
